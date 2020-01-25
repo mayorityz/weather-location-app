@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #211e1e;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ip_details {
+    background-color: white;
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+}
+
+#ip_details h3 {
+    text-align: center;
+    color: green;
+}
+
+#ip_details ul li {
+    list-style: none;
+    font-size: 15px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+#ip_details ul li::before {
+    content: '- '
+}
+
+#map {
+    width: 400px;
+    height: 400px;
+}

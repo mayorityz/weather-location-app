@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather/Location App</title>
+    <link rel="stylesheet" href="styles/mystyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <p>This is a simple web application that uses an api to determine your location via your api and displays
+                it on
+                google maps </p>
+            <p>Apis Uses : </p>
+            <ul>
+                <li>Ipapi : https://ipapi.co</li>
+                <li>google maps : https://developers.google.com/maps</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="container">
+        <div id="ip_details">
+            <h3>Your Details</h3>
+            <hr>
+            <ul>
+                <li>IP : <span id="ip"> Wait a moment!!!</span> </li>
+                <li>Location : <span id="location"> Wait a moment!!!</span></li>
+                <li>Latitude : <span id="latitude"> Wait a moment!!!</span></li>
+                <li>Longitude : <span id="longitude"> Wait a moment!!!</span></li>
+                <li>Currency : <span id="currency"> Wait a moment!!!</span></li>
+                <li>Internet Provider : <span id="provider"> Wait a moment!!!</span></li>
+                <li>Timezone : <span id="zone"> Wait a moment!!!</span></li>
+            </ul>
+        </div>
+        <div id="map"></div>
+    </div>
+</body>
+
+<script src="./scripts/scripts.js"></script>
+<script></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=[google_api]]&callback=initMap">
+</script>
+
+</html>
